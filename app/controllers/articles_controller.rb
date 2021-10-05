@@ -14,6 +14,7 @@ class ArticlesController < ApplicationController
         #render plain: params[:article] # output of this code =>{"title"=>"123", "description"=>"456789"}
         #@article = Article.new(params[:article])
         @article = Article.new(article_params)
+        #@article.user = User.first
         #render plain: @article.inspect  #test
         if @article.save
             flash[:notice] = "Article was created successfully"
