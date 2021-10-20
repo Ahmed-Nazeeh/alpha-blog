@@ -79,6 +79,7 @@ GEM
     childprocess (3.0.0)
     concurrent-ruby (1.1.9)
     crass (1.0.6)
+    digest (3.0.0)
     erubi (1.10.0)
     ffi (1.15.4-x64-mingw32)
     globalid (0.5.2)
@@ -189,6 +190,7 @@ GEM
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
+    will_paginate (3.3.1)
     xpath (3.2.0)
       nokogiri (~> 1.8)
     zeitwerk (2.4.2)
@@ -201,6 +203,7 @@ DEPENDENCIES
   bootsnap (>= 1.4.4)
   byebug
   capybara (>= 3.26)
+  digest (~> 3.0)
   jbuilder (~> 2.7)
   pg (~> 1.2.3)
   puma (~> 5.0)
@@ -214,6 +217,7 @@ DEPENDENCIES
   web-console (>= 4.1.0)
   webdrivers
   webpacker (~> 5.0)
+  will_paginate (~> 3.3)
 
 RUBY VERSION
    ruby 3.0.2p107
