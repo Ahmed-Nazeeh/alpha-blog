@@ -63,3 +63,4 @@ class CategoriesControllerTest < ActionDispatch::IntegrationTest
   #   assert_redirected_to categories_url
   # end
 end
+
